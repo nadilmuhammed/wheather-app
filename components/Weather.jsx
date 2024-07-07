@@ -11,6 +11,7 @@ const Weather = ({ data }) => {
             alt="/"
             width='100'
             height='100'
+            placeholder="blur"
           />
           <p className="text-2xl">{data.weather[0].main}</p>
         </div>
